@@ -44,10 +44,21 @@ pip install -r requirements.txt
 
 ## Output Examples
 
-### MFCCs of "zero" and "one" with 40 Mel Filters and no Aditional Noise
-![image](https://github.com/user-attachments/assets/4669a789-0b16-44cc-92aa-ab09f91f301b)
-![image](https://github.com/user-attachments/assets/f0e60c60-ab57-4bff-ab58-c3c3a93795a5)
+### MFCCs of "zero" and "one" with 40 Mel Filters and No Aditional Noise
+<img src="https://github.com/user-attachments/assets/4669a789-0b16-44cc-92aa-ab09f91f301b" width="500" alt="Resized Image">
+<img src="https://github.com/user-attachments/assets/f0e60c60-ab57-4bff-ab58-c3c3a93795a5" width="500" alt="Resized Image">
 
-### Log-Mel Spectrogram with/without Noise
-### Same Digit, Different Samples — Pattern Similarity
-### Same Digit Different Filters with/without Noise
+### Log-Mel Spectrogram of digit "one" with/without Noise
+<img src="https://github.com/user-attachments/assets/7c93f77a-efa2-4330-9d47-0119cdd59af9" width="500" alt="Resized Image">
+<img src="https://github.com/user-attachments/assets/a1ae6f6a-3382-4de9-993c-ae4788b109ec" width="500" alt="Resized Image">
+
+### Same Digit "seven" 40 Mel Filters No Additional Noise, Different Samples — Pattern Similarity
+<img src="https://github.com/user-attachments/assets/4bf656c4-7160-4d3d-a16d-2d13481f1fbf" width="500" alt="Resized Image">
+<img src="https://github.com/user-attachments/assets/434e09e4-f98e-4126-9340-14188a94a2ef" width="500" alt="Resized Image">
+
+### Same Digit "nine" Log-Mel Spectrogram Different Filters with/without Noise
+<img src="https://github.com/user-attachments/assets/4ed32364-806c-4a95-b420-c92403fce2a9" width="1000" alt="Resized Image">
+
+### Same Digit "nine" MFCC Different Filters with/without Noise
+<img src="https://github.com/user-attachments/assets/d3ce1f8c-cc46-4a63-a12e-6ce23a0e59aa" width="1000" alt="Resized Image">
+
