@@ -26,19 +26,28 @@ pip install -r requirements.txt
 
 ## How the Code Runs
 
-### Launch the app:
+### 1. Launch the app:
    python main.py
 
-### The GUI will open:
+### 2. The GUI will open:
   Select a digit (e.g., “zero”)
   Choose number of Mel filters (40 / 30 / 25)
   Optional: Check the Apply Background Noise box
   Press Record & Analyze
 
-### The system:
+### 3. The system:
   Records your voice with endpoint detection
   Computes log-mel spectrogram and 13 MFCCs
   Shows them in the GUI
   Saves the MFCCs as .csv in /recordings  
   Allows replay of the latest audio
 
+## Output Examples
+
+### MFCCs of "zero" and "one" with 40 Mel Filters and no Aditional Noise
+![image](https://github.com/user-attachments/assets/4669a789-0b16-44cc-92aa-ab09f91f301b)
+![image](https://github.com/user-attachments/assets/f0e60c60-ab57-4bff-ab58-c3c3a93795a5)
+
+### Log-Mel Spectrogram with/without Noise
+### Same Digit, Different Samples — Pattern Similarity
+### Same Digit Different Filters with/without Noise
