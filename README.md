@@ -21,21 +21,21 @@ Requirement                                                                  | I
 | Replay the last recorded audio                                             | `interface.py` with `simpleaudio`                      |
 
 ---
-# Code Requirements
+## Code Requirements
 pip install -r requirements.txt
 
 ## How the Code Runs
 
-1. Launch the app:
+### Launch the app:
    python main.py
 
-2. The GUI will open:
+### The GUI will open:
   Select a digit (e.g., “zero”)
   Choose number of Mel filters (40 / 30 / 25)
   Optional: Check the Apply Background Noise box
   Press Record & Analyze
 
-3. The system:
+### The system:
   Records your voice with endpoint detection
   Computes log-mel spectrogram and 13 MFCCs
   Shows them in the GUI
